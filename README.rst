@@ -9,6 +9,11 @@ This is my emacs configs which I'm currently running under version 23.0.92.
 git clone git://github.com/gregnewman/20seven-emacs.git
 
 ln -s ~/20seven-emacs ~/.emacs.d
+git submodule init
+git submodule update
+
+***NOTE***
+Check proper initialization of submodules (org-mode repo return timeouts from time to time)
 
 These configs are used daily for my work to include but not limited to Python/Django, Rails, CSS, JS and GTD (ord-mode).
 
