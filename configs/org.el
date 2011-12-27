@@ -28,18 +28,18 @@
 (global-set-key "\C-ca" 'org-agenda)
 (global-set-key "\C-cb" 'org-iswitchb)
 
-(setq org-agenda-files (quote ("~/hgfiles/org/client-projects.org"
-                               "~/hgfiles/org/home-projects.org"
-                               "~/hgfiles/org/studio-projects.org"
-                               "~/hgfiles/org/notes.org"
-                               "~/hgfiles/org/phone.org"
-                               "~/hgfiles/org/inbox.org"
-                               "~/hgfiles/org/mind.org"
-                               "~/hgfiles/org/archive.org")))
+(setq org-agenda-files (quote ("~/.org-tasks/client-projects.org"
+                               "~/.org-tasks/home-projects.org"
+                               "~/.org-tasks/studio-projects.org"
+                               "~/.org-tasks/notes.org"
+                               "~/.org-tasks/phone.org"
+                               "~/.org-tasks/inbox.org"
+                               "~/.org-tasks/mind.org"
+                               "~/.org-tasks/archive.org")))
 
 (defun gtd ()
    (interactive)
-   (find-file "~/hgfiles/org/todo.org")
+   (find-file "~/.org-tasks/todo.org")
 )
 
 (setq org-drawers (quote ("PROPERTIES" "CLOCK" "LOGBOOK" "NOTES" "COMMENTS" "LINKS")))
@@ -97,7 +97,7 @@
 ; copy org attachments
 (setq org-attach-method 'cp)
 ; set copy directory
-(setq org-attach-directory "~/hgfiles/org/data")
+(setq org-attach-directory "~/.org-tasks/data")
 ; underline the line in the agenda that you are on
 (add-hook 'org-agenda-mode-hook '(lambda () (hl-line-mode 1)))
 
@@ -119,7 +119,7 @@
 
 
 (org-remember-insinuate)
-     (setq org-directory "~/hgfiles/org/")
+     (setq org-directory "~/.org-tasks/")
      (setq org-default-notes-file (concat org-directory "/notes.org"))
      (define-key global-map "\C-cr" 'org-remember)
 
@@ -158,7 +158,7 @@
   Contact Info: %a
   %u
   :CLOCK-IN:
-  %?" "~/hgfiles/org/phone.org" bottom nil))))
+  %?" "~/.org-tasks/phone.org" bottom nil))))
 
 
 
@@ -313,12 +313,12 @@
 ;; MOBILE ORG
 (require 'org-mobile)
 
-(setq org-mobile-directory "/Volumes/busyashell/stage/") 
-(setq org-mobile-inbox-for-pull "~/hgfiles/org/inbox.org")
+(setq org-mobile-directory "~/.org-tasks/stage/") 
+(setq org-mobile-inbox-for-pull "~/.org-tasks/inbox.org")
 
 ;; journaling hack taken from
 ;; http://metajack.im/2009/01/01/journaling-with-emacs-orgmode/
-(defvar org-journal-file "~/hgfiles/org/journal.org"
+(defvar org-journal-file "~/.org-tasks/journal.org"
   "Path to OrgMode journal file.")
 (defvar org-journal-date-format "%Y-%m-%d"
   "Date format string for journal headings.")
