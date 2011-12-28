@@ -112,7 +112,7 @@
       (setq list (cdr list)))))
 
 ;; SavePlace
-(setq save-place-file "~/saveplace") ;; keep my ~/ clean
+(setq save-place-file "~/.saveplace") ;; keep my ~/ clean
 (setq-default save-place t)                   ;; activate it for all buffers
 
 ;; Change modifier key to meta
