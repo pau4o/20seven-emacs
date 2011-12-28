@@ -60,7 +60,7 @@
 (global-set-key [f8] 'bury-buffer)
 
 ;; ibuffer key
-(global-set-key (kbd "C-;") 'ibuffer)
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
 ;; windmove bindings
 (when (fboundp 'windmove-default-keybindings)
