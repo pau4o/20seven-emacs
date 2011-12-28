@@ -66,3 +66,5 @@
          "Really exit Emacs (automatically exits in 5 secs)? " 5 t)))
 
 (server-start)
+
+(put 'narrow-to-region 'disabled nil)
