@@ -43,7 +43,7 @@
 (setq-default org-log-done t) 
 
 ;; get rid of yes-or-no questions - y or n is enough
-(defalias 'yes-or-no-p 'y-or-n-p)
+;; (defalias 'yes-or-no-p 'y-or-n-p)
  
 (setq uniquify-buffer-name-style 'reverse)
 (setq uniquify-separator "|")
