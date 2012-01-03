@@ -30,7 +30,6 @@
                   "rainbow_mode"
                   "ruby"
                   "rst"
-                  "scss_mode"
                   "shell"
                   "slime"
                   "smex"
