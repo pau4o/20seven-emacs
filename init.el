@@ -18,6 +18,7 @@
 
 (load-cfg-files '("browse_kill_ring"
                   "custom"
+                  "css_mode"
                   "git"
                   "highlight_line"
                   "ido"
@@ -26,8 +27,10 @@
                   "main"
                   "org"
                   "python"
+                  "rainbow_mode"
                   "ruby"
                   "rst"
+                  "scss_mode"
                   "shell"
                   "slime"
                   "smex"
