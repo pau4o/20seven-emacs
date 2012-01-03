@@ -30,6 +30,7 @@
                   "rainbow_mode"
                   "ruby"
                   "rst"
+                  "sass_mode"
                   "shell"
                   "slime"
                   "smex"
