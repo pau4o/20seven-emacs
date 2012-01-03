@@ -18,6 +18,7 @@
 
 (load-cfg-files '("browse_kill_ring"
                   "custom"
+                  "cperl_mode"
                   "css_mode"
                   "git"
                   "highlight_line"
